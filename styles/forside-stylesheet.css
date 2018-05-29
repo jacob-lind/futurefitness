@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*MOBILE STYLES START*/
+#quiz {
+	border-style:solid;
+	border-color: #f16334;
+	border-radius:15px;
+	border-width:10px;
+	box-shadow: 0px 0px 20px #5b5b5b;
+	background-color:#fff;
+	margin-top: 5%;
+}
+
+.video-container {
+	margin: 1%;
+	height: 180px;
+}
+
+#magazine-section {
+	background: #f16334;
+	color: #fff;
+}
+
+#magazine-section .heading:after {
+	 background: #fff;
+}
+/*MOBILE STYLES END*/
+
+
+/*TABLET STYLES START*/
+@media (min-width: 768px) {
+	
+	.quiz-section .description {
+		line-height: 1.8;
+		font-size: 22px;
+	}
+	
+	#quiz {
+		margin-top: 3%;
+	}
+	
+}
+/*TABLET STYLES END*/
+
+
+/*DESKTOP STYLES START*/
+@media (min-width: 1281px) {
+		
+	.video-container {
+		height: 245px;
+		width: 31.3333%;
+	}
+	
+	.quiz-section .description {
+		line-height: 1.8;
+		font-size: 26px;
+		margin: 6% 24% 2% 24%;
+	}
+	
+}
+/*DESKTOP STYLES END*/
