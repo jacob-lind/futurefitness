@@ -13,12 +13,26 @@
 	top: 65%;
 	transform: translate(-50%, -50%);
 }
+
+.center2 {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.contact {
+	border: solid 2px #f16334;
+	width: 350px;
+	height: 350px;
+	position: relative;
+}
 /*MOBILE STYLES END*/
 
 
 /*TABLET STYLES START*/
 @media (min-width: 768px) {
-	.s22 {
+	.contact {
 	font-size: 22px;
 	line-height: 1.5;
 	}
