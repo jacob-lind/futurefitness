@@ -45,7 +45,7 @@ footer {
     margin-left: -.5px;
 	}
 	
-	.post:nth-of-type(even) {
+	a:nth-of-type(even) {
 	margin-top: 300px; 
 	}
 }
