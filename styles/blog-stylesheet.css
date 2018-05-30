@@ -34,18 +34,18 @@ footer {
 	
 	ul:after {
 	content: '';
-    display: block;
-    width: 1px;
-    height: 100%;
-    background: #e4e8ed;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: inherit;
-    margin-left: -.5px;
+    	display: block;
+   	width: 1px;
+	height: 100%;
+    	background: #e4e8ed;
+    	position: absolute;
+    	top: 0;
+    	left: 50%;
+    	right: inherit;
+    	margin-left: -.5px;
 	}
 	
-	a:nth-of-type(even) {
+	article a:nth-of-type(even) {
 	margin-top: 300px; 
 	}
 }
