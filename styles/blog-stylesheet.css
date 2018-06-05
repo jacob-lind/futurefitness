@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+#blog section {
+	background-color: #fff;
+}
+
+#blog p {
+	font-size: 20px;
+	margin-bottom: 1.666666666667em;
+	letter-spacing: .025em;
+	color: #26282d;
+}
+
+#blog h1 {
+	font-size: 35px;
+	text-align: left;
+	color: #000;
+	margin: -4% 0 2% 0;
+}
+
+#blog h2 {
+	font-size: 30px;
+	margin: 6% 0 -4% 0;
+	text-align: left;
+	color: #000;
+}
+
+strong {
+	font-weight: 700;
+}
+
+/*MOBILE STYLES END*/
+
+
+/*DESKTOP STYLES START*/
+@media (min-width: 768px) {
+
+	#blog h1 {
+		font-size: 50px;
+	}
+	
+	#blog h2 {
+		font-size: 45px;
+	}
+
+}
