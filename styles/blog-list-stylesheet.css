@@ -1,11 +1,18 @@
 @charset "utf-8";
 
 /*MOBILE STYLES START*/
+.flex-blog {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .post {
 	box-shadow: 0 3px 8px 0 rgba(54,57,73,.05);
 	max-height: 450px;
 	width: 350px;
-	margin: 5% 109.25px;
+	margin: 5% 0;
 }
 
 .post:hover {
@@ -16,7 +23,7 @@
 }
 
 .blog-title {
-	padding: 2% 10%;
+	padding: 2% 10% 5% 10%;
 	font-weight: 600;
 	font-size: 24px;
 	color: #26282d;
@@ -26,6 +33,10 @@
 footer {
 	border-top: solid 1px #e4e8ed;
 }
+
+a {
+	text-decoration: none !important;
+}
 /*MOBILE STYLES END*/
 
 
@@ -33,10 +44,10 @@ footer {
 @media (min-width: 1281px) {
 	
 	ul:after {
-	content: '';
+		content: '';
     	display: block;
-   	width: 1px;
-	height: 100%;
+   		width: 1px;
+   		height: 100%;
     	background: #e4e8ed;
     	position: absolute;
     	top: 0;
@@ -44,8 +55,19 @@ footer {
     	right: inherit;
     	margin-left: -.5px;
 	}
+
+	article a:nth-of-type(odd) {
+		margin-right: 61.01695%;
+		margin-top: -5%;
+	}
 	
+	article a:first-of-type {
+		margin-right: 61.01695%;
+		margin-top: 0;
+	}
+
 	article a:nth-of-type(even) {
-	margin-top: 300px; 
+		margin-left: 61.01695%;
+		margin-top: -5%;
 	}
 }
